@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    <title>HTML/CSS Clone Practice1</title>
+    <meta charset="utf-8"/>
+        
+    <style>
+        @font-face {
+            font-family: 'muli';
+            src: url('fonts/muli-variablefont_wght-webfont.woff2') format('woff2'),
+                 url('fonts/muli-variablefont_wght-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        body{
+            margin : 0;
+        }
+        
+        .navbar{
+            position: fixed;
+            background-color: rgb(240,240,240);
+            width: 39%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #header{
+            color: rgb(226,68,43);
+            margin-top : 70px;
+            margin-left : 60px;
+            font-family: muli;
+            font-size: 50px;
+            letter-spacing: 3px;
+        }
+        
+        #nav1{
+            color: rgb(226,68,43);
+            font-family: muli;
+            margin-left: 70px;
+            margin-top: 150px;
+            font-size: 25px;
+        }
+        
+        #nav2{
+            color: rgb(226,68,43);
+            font-family: muli;
+            margin-left: 70px;
+            margin-top: 20px;
+            font-size: 17px;
+        }
+        
+        .link{
+            color: rgb(115,115,115);
+            font-size: 13px;
+            font-weight: bold;
+            margin-left: 6px;
+            text-decoration: none;
+            border-bottom: 1px solid;
+            padding-bottom: 3px;
+        }
+        
+        .link:hover{
+            color: black;
+        }
+        
+        .link:first-of-type{
+            margin-left: 70px;
+        }
+        
+        .link:nth-of-type(5){
+            margin-left: 70px;
+        }
+        
+        .content{
+            position:relative;
+            left: 39%;
+            height: 700px;
+            width: 61%;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(227,70,61);
+            display : flex;
+            color: white;
+            font-family: muli;
+        }
+        
+        .content h4:first-child{
+        }
+        .content img{
+            width: 75%;
+            height: 60%;
+            position: relative;
+            top: 20%;
+            right: 12%;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <h1 id="header">Best <br> Horror <br> Scenes </h1>
+        <h4 id="nav1">
+            An ever growing collection featuring<br>
+            some of the best scenes in horror.
+        </h4>
+        <h4 id="nav2">
+            "Best Horror Scenes" is a collection of scenes I feel<br>
+            are some of the most affecting in horror. Some<br> 
+            may be simple black cat scares, others may be<br>
+            more subdued or nuanced. Many come from films<br>
+            that aren't necessarily “horror” but have elements<br>
+            or threads of horror, and all have the same general<br>
+            effect: unease, dread, fear, shock, disgust.     
+        </h4>
+        <a href="#" class="link">Watch on YouTube</a>
+        <a href="#" class="link">Suggest a Scene</a>
+        <a href="#" class="link">Get Episode Notices</a>
+        <a href="#" class="link">Contact</a>
+        <br>
+        <a href="#" class="link">RSS</a>
+        <a href="#" class="link">@besthorrorscenes</a>
+    </div>
+    <div class="main">
+        <div class="content">
+            <h4>56.THE VANISHING(1988)</h4>
+            <h4>Directed by George Sluizer</h4>
+            <img src="imgs/The_Vanishing.jpg"/>
+        </div>
+        <div class="content">
+            asdfasdf
+        </div>
+        <div class="content">
+            asdfasdf
+        </div>
+        <div class="content">
+            asdfasdf
+        </div>         
+    </div>
+</body>
+    
+</html>
+
+
